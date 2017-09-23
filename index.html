@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>form</title>
+</head>
+
+<body>
+    <form action="/getInfo" mathod="post">
+        <div>
+            姓名：
+            <input type="text" name="text" autofocus="autofocus" />
+        </div>
+        <br/>
+        <div>
+            e-mail：
+            <input type="email" name="email" placeholder="邮箱" />
+        </div>
+        <br/>
+        <div>
+            年纪：
+            <input type="number" name="number" min="0" max="100" />
+        </div><br/>
+        <div>
+        	  现居城市：<input list="cities">
+               <datalist id="cities">
+                <option value="北京" label="首都">
+                    <option value="上海">
+                        <option value="广州">
+                            <option value="深圳">
+            </datalist></div><br/>
+        <button>提交</button>
+
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>
